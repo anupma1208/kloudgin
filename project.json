@@ -1,0 +1,88 @@
+{
+  "name": "KloudginMainProject",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "KloudginLibrary": "[1.0.52]",
+    "ReporterForUiPath.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.12.0-preview]",
+    "UiPath.Jira.Activities": "[2.3.1-preview]",
+    "UiPath.System.Activities": "[22.2.0-preview]",
+    "UiPath.Testing.Activities": "[1.4.6]",
+    "UiPath.UIAutomation.Activities": "[22.2.0-preview]",
+    "UiPathTeam.DatatableConverter.Activities": "[1.0.1]",
+    "UiPathTeam.JiraGet.Activities": "[1.0.0.116]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.111.101733832",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "CommonUtilities/Jira.xaml"
+      ]
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "bed6a4c5-56b7-42eb-bd25-ce63965fa98d",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_001_CompanyCreation.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7b95b3f8-27c9-4c7d-92bd-a8b455d3a4c5",
+        "testCaseType": "TestCase",
+        "fileName": "Workflow.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "3de398b3-8b91-4ac6-9ca7-5b20ccdb612e",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_003_Zone.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "685b3601-6dae-4360-a51b-0e4673db5309",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_002_OperatingArea.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "ac99093d-8198-4720-b30e-32ca26a6a340",
+        "testCaseType": "TestCase",
+        "fileName": "TestCases\\TC_004_Organization.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "CSharp",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
