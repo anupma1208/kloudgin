@@ -17,7 +17,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.5.0",
-  "projectVersion": "1.111.101733832",
+  "projectVersion": "1.0.106636843",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -76,6 +76,12 @@
         "testCaseId": "ac99093d-8198-4720-b30e-32ca26a6a340",
         "testCaseType": "TestCase",
         "fileName": "TestCases\\TC_004_Organization.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5407ed72-1680-4a02-b1b1-acd4f494eb3c",
+        "testCaseType": "TestCase",
+        "fileName": "Main.xaml"
       }
     ],
     "modernBehavior": false
